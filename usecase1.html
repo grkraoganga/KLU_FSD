@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Item Usecase</title>
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .parent {
+            display: flex;
+            justify-content: space-between; /* Distribute space between the items */
+            align-items: center; /* Align items vertically in the center */
+            height: 10vh;
+            align-items: center;
+            /*padding: 20px;
+            background-color: #f0f0f0; */
+        }
+        .parent_logo  {
+            
+        }
+        a{
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: black;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: orange;
+        }
+        #home{
+            color: green;
+        }
+        #about{
+            color: red;
+        }
+        #portfolio{
+            color: blue;
+        }
+        #login{
+            color: aqua;
+        }
+        .parent_logo_img  {
+            width: 12vw;
+        }
+        .parent_menu  {
+           display: flex;
+           gap: 2rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="parent">
+        <!-- FLEX ITEM 1 -->
+        <section class="parent_logo">
+            <img src="logo.jpg" alt="error" class="parent_logo_img">
+        </section>
+        <!-- FLEX ITEM 2 -->
+        <section class="parent_menu">
+            <a href="#home"><i class="fas fa-home"></i>Home</a>
+            <a href="#about"><i class="fas fa-info-circle"></i>About</a>
+            <a href="#portfolio"><i class="fas fa-briefcase"></i>Portfolio</a>
+            <a href="#login"><i class="fas fa-sign-in-alt"></i>Login</a>
+        </section>
+    </section>
+    <section id="home">
+        A Home Page is the main landing page of a website and serves as the starting point for users to navigate the rest of the site. It typically provides an overview of the website's purpose and features, offering quick access to essential sections such as:
+
+        Navigation Menu: Links to other key pages like "About," "Portfolio," and "Contact."
+        Logo and Branding: The company or website logo is usually displayed prominently.
+        Main Content or Highlights: Featured content, announcements, promotions, or services offered by the website.
+        Footer: Often includes contact information, social media links, and legal disclaimers.
+    </section>
+    <section id="about">
+        The About page of a website typically provides visitors with important background information about the company, individual, or organization behind the site. It usually includes:
+
+Mission and Vision: Describes the core purpose of the entity and long-term aspirations.
+History: Provides a brief history or timeline of the company’s foundation and key milestones.
+Values: Explains the principles and ethics that guide the entity's operations.
+Team Introduction: Introduces key team members or founders, often with profiles or photos.
+Achievements: Highlights significant accomplishments, such as awards or recognition.
+Contact Information: Sometimes includes links or ways to get in touch for further inquiries.
+This page helps build trust with visitors by sharing the story behind the organization and its goals.
+    </section>
+    <section id="portfolio">
+        A Portfolio page showcases a collection of an individual's or organization's best work. It typically includes:
+
+        Project Highlights: Displays key projects, products, or case studies that demonstrate expertise.
+        Visuals and Descriptions: Features images, videos, or demos with brief descriptions for each project.
+        Skills and Services: Emphasizes the skills, tools, and services provided through the showcased work.
+        Client Testimonials: Sometimes includes feedback from clients or collaborators.
+        Call to Action: Encourages visitors to explore further or contact for similar work opportunities.        
+    </section>
+    <section id="login">
+        The Login page allows users to securely access their personal accounts on a website or application. It typically requires users to enter their username or email and password. Some sites also offer additional security through two-factor authentication (2FA). Login functionality ensures that only authorized users can access private data or features. It often includes options like "Forgot Password" for password recovery and "Remember Me" to stay logged in across sessions.
+</body>
+</html>
